@@ -1,14 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aurabot</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
-    body { margin:0; font-family: Arial; background:#0a0a0a; color:white; }
-    header { text-align:center; padding:80px 20px; }
-    h1 { font-size:50px; }
-    section { padding:60px 20px; max-width:900px; margin:auto; }
-    h2 { color:#00d9ff; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #000000, #0f2027);
+    }
+
+    header h1 {
+      font-size: 60px;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 20px;
+      color: #aaa;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #00d9ff;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: #111;
+      padding: 20px;
+      margin: 10px 0;
+      border-radius: 10px;
+    }
+
+    .pipeline {
+      text-align: center;
+      font-size: 18px;
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .video {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 700px;
+      height: 400px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+    }
   </style>
 </head>
 
@@ -16,26 +80,60 @@
 
 <header>
   <h1>Aurabot</h1>
-  <p>AI Robotics & Simulation Platform</p>
+  <p>AI-Powered Robotics, Data & Simulation Platform</p>
 </header>
 
 <section>
-  <h2>What We Do</h2>
-  <p>
-    We collect real-world robotic data, convert it into datasets,
-    and train AI models using simulation and reinforcement learning.
-  </p>
+  <h2>🚀 What We Do</h2>
+
+  <div class="card">
+    Collect real-world robotic data using intelligent grippers and sensors.
+  </div>
+
+  <div class="card">
+    Convert raw data into structured datasets for machine learning.
+  </div>
+
+  <div class="card">
+    Train AI models using simulation environments like MuJoCo and Reinforcement Learning.
+  </div>
 </section>
 
 <section>
-  <h2>Pipeline</h2>
-  <p>Data → Simulation → AI → Real Robot</p>
+  <h2>🔧 Our Pipeline</h2>
+  <div class="pipeline">
+    Real Data → Dataset → Simulation → AI Training → Real Robot Deployment
+  </div>
 </section>
 
 <section>
-  <h2>Contact</h2>
+  <h2>🤖 Technology</h2>
+  <div class="card">Robotic Data Collection</div>
+  <div class="card">Physics Simulation (MuJoCo)</div>
+  <div class="card">Reinforcement Learning</div>
+  <div class="card">Sim-to-Real Transfer</div>
+</section>
+
+<section>
+  <h2>🎥 Demo</h2>
+  <p>Watch our system in action:</p>
+
+  <div class="video">
+    <!-- Replace VIDEO_ID with your YouTube video -->
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID"
+      frameborder="0" allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<section>
+  <h2>📩 Contact</h2>
   <p>Email: aurabotautomationservices@gmail.com</p>
 </section>
+
+<footer>
+  <p>© 2026 Aurabot. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
